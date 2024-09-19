@@ -1,0 +1,440 @@
+
+body {
+    margin: 0;
+    background-color: teal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Mulish', sans-serif;
+  }
+  .back{
+      background-color: teal;
+      width: '100px';
+      height: '100px';
+      
+  }
+  .navbar {
+      background-color:white;
+      border: 4px solid teal;
+  }
+  .pageback{
+      background-color: teal;
+  }
+  .nav-link{
+      color: white;
+  }
+  .head{
+      background-color: teal;
+  }
+  .s2{
+      /* padding-left: 20px; */
+      color: #fff;
+      font-size: large;
+      display: flex;
+      width: 60%;
+  }
+  .s1{
+      width: 40%;
+      display: flex;
+  }
+  .tab{
+      width: 20%;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 5px 5px;
+      /* margin-left: 35%; */
+      border-radius: 20px;
+      transition: 0.5s;
+      color: white;
+      background-image: linear-gradient(teal,darkseagreen);
+      border: 2px solid seagreen;
+      /* justify-content: center; */
+      text-decoration: none;
+      /* font-size: 1.5rem;
+      font-family:'Times New Roman', Times, serif;
+      color:white;
+      font-weight: bold;
+      text-decoration: none;
+      justify-content: center;*/
+  } 
+  .text-cov{
+      font-size: 1.9rem;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      font-weight: bold;
+  }
+  .menu_active {
+      font-weight: bolder;
+      border-bottom: 2px solid;
+  }
+  .textt{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 30px;
+      color: palevioletred;
+      text-align: center;
+  }
+  .textt1{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 30px;
+      color: purple;
+  }
+  .btnaudio{
+      width: 8%;
+      /* font-weight: 500; */
+      font-size: 15px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 10px;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: white;
+      margin-right: 5px;
+      background-color: teal;
+      border: 2px solid white;
+      text-decoration: none;
+  }
+  .upload{
+      font-weight: 50;
+      font-size: 10px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.5s;
+      color: palevioletred;
+      border: 2px solid palevioletred;
+      text-decoration: none;
+  }
+  input[type="file"] {
+      display: none;
+  }
+  .s3{
+      padding-top: 10%;
+      padding-left: 40%;
+      display: flex;
+      align-items: center;
+  }
+  .s4{
+      padding-left: 38%;
+      display: flex;
+      align-items: center;
+  }
+  .table_dstats{
+      display: hidden;
+  }
+  .tablerow{
+      border: 2px solid black;text-align:center;font-weight:bold; background-color:palevioletred;
+  }
+  .s5{
+      padding-top: 3%;
+      text-align: center;
+      align-items: center;
+  }
+  .d1{
+      padding-top: 10%;
+      align-items: center;
+  }
+  .btnaudio:hover{
+      border: 2px solid yellow;
+      color: yellow;
+  }
+  .btn1:hover{
+      border: 2px solid yellow;
+      color:yellow;
+  }
+  .btn11:hover{
+      border: 2px solid yellow;
+      color:yellow;
+  }
+  .navbar a:hover {
+      color: mediumvioletred ;
+      border-color: mediumvioletred ;
+  }
+  .input{
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      /* margin-left: 25%; */
+      border-radius: 10px;
+      transition: 0.5s;
+      color: teal;
+      border: 2px solid teal;
+      text-decoration: none;
+      width:50%;
+      text-align: center;
+      align-items: center;
+  }
+  .input1{
+      font-weight: 50;
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: 0.5s;
+      color: teal;
+      border: 2px solid teal;
+      text-decoration: none;
+      width:20%;
+  }
+  .nav_bg{
+      background-color: wheat;
+  }
+  @media (max-width: 991px) {
+      .navbar-brand {
+          font-size: 1.5rem !important;
+      }
+      .menu_active {
+          font-weight: bold;
+          border-bottom: none;
+      }
+  }
+  .btn1{
+      width: 30%;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      /* margin-left: 35%; */
+      border-radius: 50px;
+      transition: 0.5s;
+      color: white;
+      background-color: teal;
+      border: 2px solid white;
+      text-decoration: none;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn11{
+      width: 35%;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: white;
+      margin-right: 5px;
+      background-color: teal;
+      border: 2px solid white;
+      text-decoration: none;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn12{
+      width: 40%;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: yellow;
+      margin-right: 5px;
+      background-color: teal;
+      border: 2px solid white;
+      text-decoration: none;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn2{
+      width: 10%;
+      font-weight: 100;
+      font-size: 15px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: purple;
+      border: 2px solid purple;
+      text-decoration: none;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .container{
+      width: 50px;
+      border: 2px solid teal;
+      background:bisque;
+  
+      /* margin: top right bottom left */
+      margin: 50px 50px 50px 50px;
+      
+  
+      /* padding: top right bottom left */
+      padding: 30px 0px 50px 0px;
+  }
+  .bodycontainer {
+      position: absolute;
+      margin-top: 10%;
+      margin-left: 5%;
+      background-color: darkseagreen;
+      height: 60%;
+      width: 40%;
+      padding: 2%;
+      color: rgb(255, 255, 255);
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius: 1vw;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .bodycontainer1 {
+      position: absolute;
+      margin-top: 10%;
+      margin-left: 5%;
+      background-color: lightseagreen;
+      height: 60%;
+      width: 40%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-radius: 1vw;
+      color: rgb(255, 255, 255);
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .bodyycontainer {
+      position: absolute;
+      margin-top: 7%;
+      margin-left: 5%;
+      background-color: darkseagreen;
+      height: 60%;
+      width: 40%;
+      padding: 2%;
+      color: rgb(255, 255, 255);
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius: 1vw;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .bodyycontainer1 {
+      position: absolute;
+      margin-top: 7%;
+      margin-left: 5%;
+      background-color: lightseagreen;
+      height: 60%;
+      width: 40%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-radius: 1vw;
+      color: rgb(255, 255, 255);
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  .mapcontainer {
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 14%;
+      height: 70%;
+      width: 70%;
+      /* padding: 2%; */
+      border: 10px solid teal;
+      color: rgb(255, 255, 255);
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius: 1vw;
+      box-shadow: 0 0.4vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+        0 0.4vw 4vw 0 rgba(0, 0, 0, 0.2);
+  }
+  body {
+      margin: 0;
+      /* background-image: url('./Images/back.jpeg'); */
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  /*
+  #######################################
+  Main landing Screen 
+  #######################################
+  */
+  
+  #header {
+      width: 100;
+      height: 80vh;
+      margin-top: 100px;
+  }
+  
+  #header h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      color: black;
+  }
+  
+  #header .brand-name {
+      color: #db3838;
+  }
+  
+  #header h2 {
+      color: #484848;
+      font-size: 24px;
+  }
+  
+  #header .btn-get-started {
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.5s;
+      color: #db3434;
+      border: 2px solid #db3434;
+      text-decoration: none;
+  }
+  
+  #header .btn-get-started:hover {
+      background: #3498db;
+      color: #fff;
+  }
+  
+  #header-img {
+      text-align: center;
+      /* max-width: 70%; */
+  }
+  
+  #header .animated {
+      animation: up-down 0.75s infinite alternate-reverse both;
+      /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
+  }
+  @keyframes up-down {
+      from {
+          transform: translateY(0);
+      }
+      to {
+          transform: translateY(20px);
+      }
+  }
